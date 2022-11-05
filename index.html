@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./development/css/style.css" />
+        <title>Third Party API Weather App</title>
+    </head>
+
+    <body>
+        <header class="jumbotron jumbotron-fluid custom-jumbotron">
+            <div class="container text-center">
+            <h1>Weather Dashboard</h1>
+            </div>
+        </header>
+        <main class="container-fluid">
+            <div class="row">
+                <section class="col-12 col-md-4 col-lg-3">
+                    <div class="card custom-card">
+                    <h3 class="card-header">Search for a City:</h3>
+                    <input id="search-input" class="form-input w-100" type="text" placeholder="Search!">
+                    <ul class="list-group list-group-flush"></ul>
+                    <div class="card-footer">
+                        <button class="btn btn-block custom-btn">Search</button>
+                    </div>
+                    </div>
+                </section>
+            
+                <section class="col-12 col-md-8 col-lg-9">
+                    <div class="row" id="today-forecast">
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <div class="card h-100">
+                                <h5 class="card-header custom-card-header">City Name (date)</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Temp: </p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <div class="card h-100">
+                                <h2>5-Day forecast</h2>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100">
+                                <h5 class="card-header custom-card-header">(date)</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Temp: </p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <h5 class="card-header custom-card-header">(date)</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Temp: </p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <h5 class="card-header custom-card-header">(date)</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Temp: </p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <h5 class="card-header custom-card-header">(date)</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Temp: </p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <h5 class="card-header custom-card-header">(date)</h5>
+                                <div class="card-body">
+                                    <p class="card-text">Temp: </p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity</p>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </main>
+        <script src="./development/js/script.js"></script>
+    </body>
+</html>
