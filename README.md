@@ -17,7 +17,7 @@ Current weather and 5-day forecast app
 
 ## Web Site Location (Deployed Application)
 
-https://maksimrazuvaev.github.io/
+https://maksimrazuvaev.github.io/server_side_api_weather_app/
 
 ## Usage
 
