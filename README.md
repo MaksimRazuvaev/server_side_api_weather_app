@@ -23,6 +23,13 @@ https://maksimrazuvaev.github.io/server_side_api_weather_app/
 
 User can see current weather condition and 5-day forecast
 
+## Technologies
+
+HTML
+Javascript
+Javascript local storage
+Key API
+
 ## Credits
 
 N/A
